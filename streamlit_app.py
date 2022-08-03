@@ -1,7 +1,9 @@
 import streamlit as st
 import pandas as pd
 
-st.header('🎈 App Name')
+st.set_page_config(layout="wide")
+
+st.header('🎈 `st.line_chart` demo')
 
 df = pd.read_csv('seattle-weather.csv', parse_dates=['date'])
 
