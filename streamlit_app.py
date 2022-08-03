@@ -5,7 +5,7 @@ st.set_page_config(layout='wide')
 
 st.header('🎈 `st.line_chart` demo')
 
-plot_height = st.slider('Select the plot's height', 100, 500, 250)
+plot_height = st.slider("Select the plot's height", 100, 500, 250)
 plot_data = st.multiselect(
      'Select data to plot',
      ['temp_min', 'temp_max', 'precipitation', 'wind'],
