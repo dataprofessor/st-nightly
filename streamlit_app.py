@@ -5,7 +5,7 @@ st.set_page_config(layout='wide')
 
 st.header('🎈 `st.line_chart` demo')
 
-st.subheader('Settings')
+st.sidebar.subheader('Settings')
 plot_height = st.sidebar.slider("Select the plot's height", 100, 500, 250)
 plot_data = st.sidebar.multiselect(
      'Select data to plot',
